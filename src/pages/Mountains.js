@@ -10,7 +10,28 @@ const Mountains = (props) => {
     dispatch(setPageHeader("Mountains"));
   }, []);
 
-  return <div></div>;
+  return (
+    <div className="grid  grid-rows-2 place-items-center">
+      <div>
+        <input
+          className="border border-pink-500 "
+          onChange={(e) => setMountainName(e.currentTarget.value)}
+        />
+        <button
+          className="rounded-lg bg-red-600 px-2 py-2 ml-3 text-red-200 "
+          onClick={() => props.addNewMountain(mountainName)}
+        >
+          Add mountain
+        </button>
+      </div>
+
+      <div className="flex flex-col">
+        {mountains.map((mountain, idx) => (
+          <p key={idx}>{mountain}</p>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Mountains;
