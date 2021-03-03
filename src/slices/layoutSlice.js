@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const layoutSlice = createSlice({
   name: "layout",
   initialState: {
-    pageHeader: "Home",
+    pageHeader: "Page",
   },
   reducers: {
     setPageHeader: (state, action) => {

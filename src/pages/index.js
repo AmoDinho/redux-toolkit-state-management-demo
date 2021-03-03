@@ -6,7 +6,7 @@ import HeadingOne from "../components/HeadingOne";
 const Index = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(setPageHeader("Home"));
+    dispatch(setPageHeader("index"));
   }, []);
   return (
     <>
