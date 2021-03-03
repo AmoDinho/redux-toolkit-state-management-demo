@@ -13,3 +13,5 @@ export const layoutSlice = createSlice({
 });
 
 export const { setPageHeader } = layoutSlice.actions;
+
+export default layoutSlice.reducer;
