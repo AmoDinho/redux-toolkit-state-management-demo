@@ -1,14 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+import { setNewTitle } from "../reducers/layoutReducers";
 export const layoutSlice = createSlice({
   name: "layout",
   initialState: {
     pageHeader: "Page",
   },
   reducers: {
-    setPageHeader: (state, action) => {
-      state.pageHeader = action.payload;
-    },
+    setPageHeader: (state, action) => setNewTitle(state, action),
   },
 });
 
