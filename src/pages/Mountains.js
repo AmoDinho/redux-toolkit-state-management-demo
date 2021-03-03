@@ -6,7 +6,7 @@ import { setPageHeader } from "../slices/layoutSlice";
 const Mountains = (props) => {
   const [mountainName, setMountainName] = useState("");
 
-  const mountains = useSelector((state) => state.mountains.mountains);
+  const mountains = useSelector((state) => state.mountain.mountains);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(setPageHeader("Mountains"));
