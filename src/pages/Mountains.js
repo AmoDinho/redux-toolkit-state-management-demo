@@ -4,6 +4,8 @@ import { addMountain } from "../slices/mountainsSlice";
 import { setPageHeader } from "../slices/layoutSlice";
 
 const Mountains = (props) => {
+  const [mountainName, setMountainName] = useState("");
+
   const mountains = useSelector((state) => state.mountains.mountains);
   const dispatch = useDispatch();
   useEffect(() => {
