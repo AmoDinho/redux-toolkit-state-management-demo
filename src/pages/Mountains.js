@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { addMountain } from "../slices/mountainsSlice";
 
 const Mountains = (props) => {
+  const mountains = useSelector((state) => state.mountains.mountains);
+  const dispatch = useDispatch();
   return <div></div>;
 };
 
