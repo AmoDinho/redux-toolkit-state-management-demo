@@ -5,4 +5,9 @@ export const layoutSlice = createSlice({
   initialState: {
     pageHeader: "",
   },
+  reducers: {
+    setPageHeader: (state, action) => {
+      state.pageHeader = action.payload;
+    },
+  },
 });
