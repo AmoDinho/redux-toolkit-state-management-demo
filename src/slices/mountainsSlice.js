@@ -5,4 +5,5 @@ export const mountainsSlice = createSlice({
   initialState: {
     mountains: ["Kasteelspoort", "Jonkershoek", "Mont Rochelle"],
   },
+  reducers: {},
 });
