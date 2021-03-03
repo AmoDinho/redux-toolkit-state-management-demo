@@ -6,7 +6,7 @@ const App = () => {
   const title = useSelector((state) => state.layout.pageHeader);
 
   return (
-    <div>
+    <div className="text-center">
       {title}
       <Routes />
     </div>
