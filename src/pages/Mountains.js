@@ -9,7 +9,7 @@ const Mountains = (props) => {
   const mountains = useSelector((state) => state.mountain.mountains);
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(setPageHeader("Mountains"));
+    dispatch(setPageHeader("THe Cape's finest Mountains"));
   }, []);
 
   return (
