@@ -10,7 +10,7 @@ const Mountains = (props) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(setPageHeader("THe Cape's finest Mountains"));
-  }, []);
+  });
 
   return (
     <div className="grid  grid-rows-2 place-items-center">
