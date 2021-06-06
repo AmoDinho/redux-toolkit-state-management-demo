@@ -10,7 +10,7 @@ const Index = () => {
     dispatch(
       setPageHeader("This header is made possible with the useDispatch hook")
     );
-  }, []);
+  });
   return (
     <>
       <HeadingOne className="text-center text-blue-500">
