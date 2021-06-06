@@ -19,7 +19,7 @@ const Index = () => {
       </HeadingOne>
 
       <Link to="/mountains">
-        Lets go and learn about the Cape's finest mountains!
+        Click me add to the list the Cape's finest mountains!
       </Link>
     </>
   );
