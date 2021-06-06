@@ -8,7 +8,7 @@ const Index = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
-      setPageHeader("This is header is made possible with the useDispatch hook")
+      setPageHeader("This header is made possible with the useDispatch hook")
     );
   }, []);
   return (
