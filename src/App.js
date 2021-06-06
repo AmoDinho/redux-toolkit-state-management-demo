@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setPageHeader } from "./slices/layoutSlice";
+import React from "react";
+import { useSelector } from "react-redux";
 import Routes from "./routes";
 const App = () => {
   const title = useSelector((state) => state.layout.pageHeader);
