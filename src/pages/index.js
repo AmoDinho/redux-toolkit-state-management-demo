@@ -11,7 +11,8 @@ const Index = () => {
   return (
     <>
       <HeadingOne className="text-center text-blue-500">
-        This is the home page of the app!
+        This is the root of the app. Above is the header that is controlled by
+        Redux .
       </HeadingOne>
     </>
   );
